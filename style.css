@@ -1,7 +1,122 @@
-body {
-
+:root {
+	--wtxt: #fff;
+	--btxt: #000;
 }
 
-#title {
-	font-size: 30;
+.semi {
+	background-color: white;
+	border: 2px solid brown;
+	text-align: center;
+	width: 45px;
+	height: 66px;
+	float: left;
+	border-radius: 40px/15px;
+	padding-top: 3px;
+	margin: 1px;
+}
+
+section {
+	position: absolute;
+	left: 10%;
+	width: 7in;
+	height: 11in;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+img {
+	position: absolute;
+	float: none;
+	width: 40%;
+	height: 3.25in;
+	left: 30%;
+}
+
+#foodinfo {
+	position: absolute;
+	width: 80%;
+	height: 30%;
+	left: 9%;
+	top: 20%;
+	color: var(--wtxt);
+	background-color: salmon;
+	border: 8px solid green;
+}
+
+#fillerdiv { /*Easy trick to center vertically*/
+	height: 38%;
+}
+
+#foodinfo {
+	text-align: center;
+}
+
+#instoats {
+	font-size: 27;
+}
+
+#horline {
+	margin-top: -5px;
+	margin-bottom: 30px;
+	color: rgba(255,255,255,.3);
+}
+
+#flavor {
+	font-size: 60;
+}
+
+#disclaimer {
+	margin-top: -5px;
+	color: var(--btxt);	
+}
+
+#badgeStats {
+	position: absolute;
+	display: float-right;
+	right: .20in;
+	top: .65in;
+}
+
+#nrg {
+	padding: 12px;
+	height: 100px;
+	width: 125px;
+	border-radius: 50%;
+	margin-bottom: -50px;
+	text-align: center;
+	color: red;
+	background-color: yellow;
+	font-size: 20;
+}
+
+#box {
+	background-color: blue;
+	color: var(--wtxt);
+	padding: 5px;
+	border-radius: 8px;
+}
+
+#smallprint {
+	position: absolute;
+	left: 5px;
+	bottom: 8px;
+	width: 33%;
+	font-size: 11;
+}
+
+#nutritionInfo {
+	position: absolute;
+	display: inline-block;
+	bottom: 20px;
+	right: -55px;
+	width: 55%;
+	color: brown;
+	margin-bottom: 30px;
+}
+
+#arbinfo {
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
 }
