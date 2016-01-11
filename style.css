@@ -1,6 +1,9 @@
 :root {
 	--wtxt: #fff;
 	--btxt: #000;
+	--serfifont: 'Slabo 27px', serif;
+	--snas: 'Asap', sans-serif;
+	--title: 'Rokkitt', serif;
 }
 
 .semi {
@@ -13,6 +16,7 @@
 	border-radius: 40px/15px;
 	padding-top: 3px;
 	margin: 1px;
+	font-family: 'Asap', sans-serif;
 }
 
 section {
@@ -20,9 +24,10 @@ section {
 	left: 10%;
 	width: 7in;
 	height: 11in;
-	background-color: white;
+	background-image: url("cheerios.jpg");
 	color: black;
 	border: 1px solid black;
+	font-family: 'Asap', sans-serif;
 }
 
 img {
@@ -31,6 +36,7 @@ img {
 	width: 40%;
 	height: 3.25in;
 	left: 30%;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #foodinfo {
@@ -40,8 +46,8 @@ img {
 	left: 9%;
 	top: 20%;
 	color: var(--wtxt);
-	background-color: salmon;
-	border: 8px solid green;
+	background: radial-gradient(farthest-side at 50% 20%, rgb(10,200,14), green);
+	border: 8px solid rgba(255,255,255,.12);
 }
 
 #fillerdiv { /*Easy trick to center vertically*/
@@ -53,7 +59,8 @@ img {
 }
 
 #instoats {
-	font-size: 27;
+	font-family: 'Slabo 27px', serif;
+	font-size: 28;
 }
 
 #horline {
@@ -64,9 +71,11 @@ img {
 
 #flavor {
 	font-size: 60;
+	font-family: 'Rokkitt', serif;
 }
 
 #disclaimer {
+	font-family: 'Asap', sans-serif;
 	margin-top: -5px;
 	color: var(--btxt);	
 }
@@ -75,26 +84,31 @@ img {
 	position: absolute;
 	display: float-right;
 	right: .20in;
-	top: .65in;
+	top: .45in;
 }
 
 #nrg {
 	padding: 12px;
 	height: 100px;
-	width: 125px;
+	width: 120px;
 	border-radius: 50%;
 	margin-bottom: -50px;
 	text-align: center;
 	color: red;
 	background-color: yellow;
-	font-size: 20;
+	font-size: 23;
+	font-family: 'Slabo 27px', serif;
 }
 
 #box {
-	background-color: blue;
+	background-color: navy;
 	color: var(--wtxt);
 	padding: 5px;
 	border-radius: 8px;
+	font-size: 15;
+	text-align: center;
+	height: 40;
+	font-family: 'Asap', sans-serif;
 }
 
 #smallprint {
@@ -102,7 +116,7 @@ img {
 	left: 5px;
 	bottom: 8px;
 	width: 33%;
-	font-size: 11;
+	font-size: 10;
 }
 
 #nutritionInfo {
@@ -119,4 +133,11 @@ img {
 	position: absolute;
 	bottom: 5px;
 	right: 10px;
+}
+
+#unimportant {
+	position: absolute;
+	right: 10px;
+	bottom: 140px;
+	text-align: right;
 }
