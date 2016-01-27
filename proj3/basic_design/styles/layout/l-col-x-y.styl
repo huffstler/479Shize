@@ -1,0 +1,10 @@
+cols-n(n)
+  for i in 1..n
+    $l-col-{i}-{n}
+      display block
+      position absolute
+      width unit(100/n, '%')
+      left unit( (i - 1)*100/n, '%')
+
+for i in 1..12
+  cols-n(i)

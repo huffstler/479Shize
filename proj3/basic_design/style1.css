@@ -1,0 +1,79 @@
+.intro,
+.supporting {
+  display: inline-block;
+  width: 68.5%;
+  margin-left: 25%;
+}
+.intro h1 {
+  margin-top: 0px;
+  font-family: sitka banner;
+  font-size: 4em;
+  color: #212121;
+}
+.intro h2 {
+  margin-top: -50px;
+  margin-bottom: 50px;
+  color: #212121;
+}
+.sidebar {
+  background: #303f9f;
+  color: #fff;
+  float: left;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 18%;
+  height: 100%;
+  padding: 1.5%;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.sidebar a {
+  color: #fff;
+}
+.summary p,
+.preamble p,
+.explanation p,
+.participation p,
+.benefits p,
+.requirements p {
+  background: #fff;
+  display: block;
+  padding: 2.5%;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+.summary p:hover,
+.preamble p:hover,
+.explanation p:hover,
+.participation p:hover,
+.benefits p:hover,
+.requirements p:hover {
+  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.summary h3,
+.preamble h3,
+.explanation h3,
+.participation h3,
+.benefits h3,
+.requirements h3 {
+  text-align: center;
+  color: #212121;
+}
+footer {
+  position: fixed;
+  left: 5%;
+  bottom: 2%;
+  z-index: 2;
+}
+footer a {
+  color: #fff;
+}

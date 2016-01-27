@@ -1,0 +1,109 @@
+.sidebar .design-selection {
+  display: block;
+  position: absolute;
+  width: 33.333333333333336%;
+  left: 0%;
+  padding-top: 0.5in;
+  padding-bottom: 0.8in;
+  background: #ff8e00;
+  border-bottom: 5px solid #222;
+  color: #000;
+}
+.sidebar .design-selection a {
+  color: #000;
+}
+.sidebar .design-selection h3 {
+  text-align: center;
+}
+.sidebar .design-archives {
+  display: block;
+  position: absolute;
+  width: 33.333333333333336%;
+  left: 33.333333333333336%;
+  padding-top: 0.5in;
+  padding-bottom: 0.8in;
+  background: #ff8e00;
+  border-bottom: 5px solid #222;
+  color: #000;
+}
+.sidebar .design-archives a {
+  color: #000;
+}
+.sidebar .design-archives h3 {
+  text-align: center;
+}
+.sidebar .zen-resources {
+  display: block;
+  position: absolute;
+  width: 33.333333333333336%;
+  left: 66.66666666666667%;
+  padding-top: 0.5in;
+  padding-bottom: 0.8in;
+  background: #ff8e00;
+  border-bottom: 5px solid #222;
+  color: #000;
+}
+.sidebar .zen-resources a {
+  color: #000;
+}
+.sidebar .zen-resources h3 {
+  text-align: center;
+}
+body {
+  margin: 0;
+  margin-top: 8%;
+  padding: 0%;
+  background-image: url("styles/colored1.jpg");
+}
+.intro h1 {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  width: 100%;
+  padding: 3px;
+  background: #8f9a55;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0px 1px 5px 0px #222;
+  font-size: 2em;
+  font-family: PT serif;
+}
+.sidebar {
+  z-index: 1;
+  position: fixed;
+  top: -27.5%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1.25%;
+  width: 100%;
+  box-shadow: 0px 1px 5px 0px #222;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar .design-selection {
+  height: 2in;
+}
+.sidebar .design-archives {
+  height: 2in;
+}
+.sidebar .zen-resources {
+  height: 2in;
+}
+.sidebar:hover {
+  top: -2.5%;
+}
+.intro,
+.main {
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  width: 75%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  box-shadow: inset 0px 0px 7px 3px #000;
+  background: #fff;
+}
